@@ -1,0 +1,25 @@
+{
+  "name": "prideandprejudicegame",
+  "version": "1.0.0",
+  "description": "A Pride and Prejudice RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browserify js\\index.js > js\\bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akrueger12/PrideAndPrejudiceGame.git"
+  },
+  "author": "Anna Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akrueger12/PrideAndPrejudiceGame/issues"
+  },
+  "homepage": "https://github.com/akrueger12/PrideAndPrejudiceGame#readme",
+  "dependencies": {
+    "phaser": "^3.52.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
