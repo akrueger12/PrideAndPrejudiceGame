@@ -119,14 +119,6 @@ function update ()
         elizabeth.x-=3;
         elizabeth.anims.play('walk-left', true);
     }  else {
-        //elizabeth.anims.pauseAll();
+        elizabeth.anims.pause();
     }
-
-    // elizabeth.on("animationupdate", () => {
-    //     //If the player has stopped moving
-    //     if (elizabeth.velocity.y == 0 && elizabeth.velocity.x < 0.5 && this.hero.body.velocity.x > -0.5) {
-    //         //Stop the animation
-    //         elizabeth.anims.stop();
-    //     }
-    // });
 }
