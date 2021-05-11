@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/akrueger12/PrideAndPrejudiceGame#readme",
   "dependencies": {
+    "material-components-web": "^11.0.0",
     "phaser": "^3.52.0"
   },
   "devDependencies": {},

@@ -1,0 +1,144 @@
+body {
+    background-color:#EBDFC7;
+    margin: 0px;
+}
+
+h1 {
+    font-size:2.5vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-size:1.5vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.usernameInput {
+    font-family: 'Press Start 2P', cursive;
+    font-size:large;
+    width:85%;
+    height:8%;
+    border: none;
+    border-radius:10px;
+    padding-left: 2%;
+    margin-left: 2vw;
+}
+
+.showPasswordButton {
+    margin-left: 33vw;
+    margin-top: -6.5vh;
+}
+
+.passwordInput {
+    font-family: 'Press Start 2P', cursive;
+    font-size:large;
+    width:85%;
+    height:8%;
+    border: none;
+    border-radius:10px;
+    padding-left: 2%;
+    margin-left: 2vw;
+}
+
+.loginButton {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    background-color: #EBDFC7;
+    border-radius: 10px;
+    width:25%;
+    height:8%;
+    margin-left:35%;
+    border:none;
+    outline:none;
+    box-shadow: 1px 2px;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.split {
+    height: 100vh;
+    width: 40vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    margin-left: 10vh;
+    padding-top: 15vh;
+    padding-left: 1vw;
+    background-color: #FFF4DF
+}
+
+.right {
+    right: 0;
+    width:50vw;
+    padding-top:5vh;
+    padding-right:1vw;
+    text-align: center;
+}
+
+.elizabethImage {
+    right: 0;
+    margin-top: -30vh;
+    margin-left: 16vw;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.heart1 {
+    height:100px;
+    width:100px;
+    margin-left:7vw;
+    margin-top:5vh;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.heart2 {
+    height:100px;
+    width:100px;
+    margin-left:15vw;
+    margin-top:-5vh;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.heart3 {
+    height:100px;
+    width:100px;
+    margin-left:9vw;
+    margin-top:1vh;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.spacer {
+    height:2vh;
+}
+
+.infoButton {
+    margin-left:45vw;
+    padding-bottom:1vh;
+    margin-top:-15vh;
+}
