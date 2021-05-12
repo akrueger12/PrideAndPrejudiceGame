@@ -13,6 +13,11 @@ h2 {
     font-family: 'Press Start 2P', cursive;
 }
 
+h3 {
+    font-size:1vw;
+    font-family:'Press Start 2P', cursive;
+}
+
 .usernameInput {
     font-family: 'Press Start 2P', cursive;
     font-size:large;
@@ -27,6 +32,11 @@ h2 {
 .showPasswordButton {
     margin-left: 33vw;
     margin-top: -6.5vh;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .passwordInput {
@@ -51,6 +61,35 @@ h2 {
     border:none;
     outline:none;
     box-shadow: 1px 2px;
+}
+
+.registerLink {
+    font-family: 'Press Start 2P', cursive;
+    margin-left:3vw;
+}
+
+.registerLink a:link{
+    color:#000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.registerLink a:visited {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.registerLink a:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.registerLink a:active {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .centered {
