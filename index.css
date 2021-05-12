@@ -74,11 +74,6 @@
     right: 0;
     margin-top: -30vh;
     margin-left: 16vw;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 .heart1 {
@@ -86,11 +81,6 @@
     width:100px;
     margin-left:7vw;
     margin-top:5vh;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 .heart2 {
@@ -98,11 +88,6 @@
     width:100px;
     margin-left:15vw;
     margin-top:-5vh;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 .heart3 {
@@ -110,11 +95,6 @@
     width:100px;
     margin-left:9vw;
     margin-top:1vh;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 .infoButton {
