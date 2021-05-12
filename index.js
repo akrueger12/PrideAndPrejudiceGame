@@ -135,3 +135,12 @@ function togglePasswordVisibility(){
   }
 }
 
+function makePopupVisible(){
+  var x = document.getElementById("infoPopup");
+  x.style.display = "block";
+}
+
+function makePopupInvisible(){
+  var x = document.getElementById("infoPopup");
+  x.style.display = "none";
+}

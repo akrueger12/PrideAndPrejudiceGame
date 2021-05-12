@@ -1,95 +1,40 @@
-body {
-    background-color:#EBDFC7;
-    margin: 0px;
-}
-
-h1 {
-    font-size:2.5vw;
-    font-family: 'Press Start 2P', cursive;
-}
-
-h2 {
-    font-size:1.5vw;
-    font-family: 'Press Start 2P', cursive;
-}
-
-h3 {
-    font-size:1vw;
-    font-family:'Press Start 2P', cursive;
-}
-
-.usernameInput {
-    font-family: 'Press Start 2P', cursive;
-    font-size:large;
-    width:85%;
-    height:8%;
-    border: none;
-    border-radius:10px;
-    padding-left: 2%;
-    margin-left: 2vw;
-}
-
 .showPasswordButton {
     margin-left: 33vw;
-    margin-top: -6.5vh;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
-.passwordInput {
-    font-family: 'Press Start 2P', cursive;
-    font-size:large;
-    width:85%;
-    height:8%;
-    border: none;
-    border-radius:10px;
-    padding-left: 2%;
-    margin-left: 2vw;
+.infoPopup {
+    width:1092px;
+    height:648px;
+    margin-left:18vw;
+    margin-top:5vh;
+    position: absolute; 
+    z-index:2;
+    display:none;
+    text-align:center;
+    background-image: url("landingPage/assets/images/RectangleFrame.png");
 }
 
-.loginButton {
-    font-family: 'Press Start 2P', cursive;
-    font-size: large;
-    background-color: #EBDFC7;
-    border-radius: 10px;
-    width:25%;
-    height:8%;
+.confirmButton {
+    margin-top:-10vh;
+}
+.infoPopup h1 {
+    margin-top: 12vh;
+    font-size:2vw;
+}
+
+.infoPopup h2 {
+    margin-left:5vw;
+    margin-right:5vw;
+    line-height: 2em;
+    z-index:3;
+}
+.submitButton {
     margin-left:35%;
-    border:none;
-    outline:none;
-    box-shadow: 1px 2px;
 }
 
 .registerLink {
     font-family: 'Press Start 2P', cursive;
     margin-left:3vw;
-}
-
-.registerLink a:link{
-    color:#000000;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.registerLink a:visited {
-    color:#000000;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.registerLink a:hover {
-    color: #000000;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.registerLink a:active {
-    color: #000000;
-    background-color: transparent;
-    text-decoration: underline;
 }
 
 .centered {
@@ -170,10 +115,6 @@ h3 {
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-}
-
-.spacer {
-    height:2vh;
 }
 
 .infoButton {
