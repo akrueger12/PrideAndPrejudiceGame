@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left:6vw;
+}
+
+h3 {
+    margin-left:14vw;
+}
+
+.registerBox {
+    background-color: #FFF4DF;
+    width: 60vw;
+    height:100vh;
+    margin-left:20vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-y: scroll;
+    padding-top:0.5vh;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+input {
+    margin-left:10vw;
+    width:40vw;
+}
+
+.showPasswordButton {
+    margin-left: 48vw;
+}
+
+.vine1 {
+    margin-top:-5vh;
+    margin-left:10vw;
+}
+
+.vine2 {
+    margin-left:85vw;
+    margin-top:-28vh;
+}
+
+.submitButton{
+    margin-left:22vw;
+}

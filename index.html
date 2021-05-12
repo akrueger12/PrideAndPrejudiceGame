@@ -2,9 +2,60 @@
 <html>
 <head>
     <title>Pride and Prejudice RPG</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="appStyle.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="js//bundle.js"></script>
+  <div class=infoPopup id=infoPopup>
+    <h1>Pride and Prejudice: An RPG</h1>
+    <div class="spacer"></div>
+    <h2>Simplify your latest reading assignment, learn something new, or simply enjoy one of your favorite novels in a new format as you become Elizabeth Bennet, 
+      and walk through Pride and Prejudice by Jane Austen in an RPG style game.
+    </h2>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <img src=landingPage\assets\images\BrownButton.png alt="Great exit button" height=55px width=110px onClick="makePopupInvisible()">
+    <div class=confirmButton onClick="makePopupInvisible()"><h2>OK</h2></div>
+  </div>
+     <div class="split left">
+        <h2>Username:</h2>
+        <input class=usernameInput type="text" id="usernameInput" name="usernameInput">
+        <div class="spacer"></div>
+        <h2>Password:</h2>
+        <input class=passwordInput type="password" id="passwordInput" name="passwordInput">
+        <div class=showPasswordButton>
+            <img src=landingPage\assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <button class="submitButton">LOGIN</button>
+        <div class="spacer"></div>
+        <div class="registerLink">
+          <h3>Don't have an account? <a href="client\register\register.html">Sign up</a></h3>
+        </div>
+      </div>
+      <div class="split right">
+          <h1>PRIDE AND PREJUDICE</h1>
+          <h2>Literature made simple</h2>
+          <div class=heart1>
+            <img src=landingPage\assets\images\heart.png alt="Pixel art heart" height=100 width=100>
+          </div>
+          <div class=heart2>
+            <img src=landingPage\assets\images\heart.png alt="Pixel art heart" height=100 width=100>
+          </div>
+          <div class=heart3>
+            <img src=landingPage\assets\images\heart.png alt="Pixel art heart" height=100 width=100>
+          </div>
+          <div class=elizabethImage>
+            <img src=landingPage\assets\images\ElizabethStill.png alt="Elizabeth Bennet in pixel art" height=550 width=550>
+          </div>
+          <div class=infoButton>
+            <img src=landingPage\assets\images\infoButton.png alt="Pixel art question mark informational button" height=100 width=100 onClick="makePopupVisible()">
+          </div>
+      </div>
+    
 </body>
 </html>
