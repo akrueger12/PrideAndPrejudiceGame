@@ -27,16 +27,23 @@ h3 {
     font-family:'Press Start 2P', cursive;
 }
 
+label {
+    font-size:1.75vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
 input {
     font-family: 'Press Start 2P', cursive;
     font-size:large;
-    width:85%;
-    height:8%;
     border: none;
     border-radius:10px;
     padding-left: 2%;
-    margin-left: 2vw;
     outline:none;
+    height:8vh;
+    width:75%;
+    margin-left:3vw;
+    margin-top:1vh;
+    margin-bottom:5vh;
 }
 
 .submitButton {
@@ -77,8 +84,4 @@ a:active {
     color: #000000;
     background-color: transparent;
     text-decoration: underline;
-}
-
-.showPasswordButton {
-    margin-top: -6.5vh;
 }

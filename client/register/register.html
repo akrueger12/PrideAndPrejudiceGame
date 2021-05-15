@@ -9,35 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
     <div class=vine1>
-        <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px onClick="TODO">
+        <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px>
     </div>
     <div class="registerBox">
         <h1>REGISTER</h1>
-        <h2>Username:</h2>
-        <input class=usernameInput type="text" id="usernameInput" name="usernameInput">
-        <div class="spacer"></div>
-        <h2>Email:</h2>
-        <input class=emailInput type="text" id="emailInput" name="emailInput">
-        <div class="spacer"></div>
-        <h2>Password:</h2>
-        <input class=passwordInput type="password" id="passwordInput" name="passwordInput">
-        <div class=showPasswordButton>
-            <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
-        </div>
-        <div class="spacer"></div>
-        <h2>Confirm Password:</h2>
-        <input class=confirmPasswordInput type="password" id="confirmPasswordInput" name="confirmPasswordInput">
-        <div class=showPasswordButton>
-            <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="toggleConfirmPasswordVisibility()">
-        </div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <button class="submitButton">SIGN UP</button>
+            <form>
+                <label for="usernameInput">Username:</label><br>
+                <input class=usernameInput type="text" id="usernameInput" name="usernameInput" autocomplete="username">
+                <label for="emailInput">Email:</label><br>
+                <input class=emailInput type="text" id="emailInput" name="emailInput" autocomplete="email">
+                <label for="passwordInput">Password:</label><br>
+                <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="new-password">
+                <label for="confirmPasswordInput">Confirm Password:</label><br>
+                <input class=confirmPasswordInput type="password" id="confirmPasswordInput" name="confirmPasswordInput" autocomplete="new-password">
+            </form>
+
+            <div class=showPasswordButton1>
+                <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
+            </div>
+            <div class=showPasswordButton2>
+                <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="toggleConfirmPasswordVisibility()">
+            </div>
+        <button class="submitButton" onClick="attemptRegister()">SIGN UP</button>
         <div class="spacer"></div>
         <h3>Already have an account? <a href="\index.html">Login</a> </h3>
     </div>
     <div class=vine2>
-        <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px onClick="TODO">
+        <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px>
     </div>
 </body>
 </html>

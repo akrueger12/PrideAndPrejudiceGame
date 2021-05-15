@@ -2,10 +2,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    margin-left:6vw;
-}
-
 h3 {
     margin-left:14vw;
 }
@@ -22,18 +18,23 @@ h3 {
     padding-top:0.5vh;
 }
 
+form {
+    margin-left:6vw;
+}
+
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;  
+    background: transparent; 
 }
 
-input {
-    margin-left:10vw;
-    width:40vw;
+.showPasswordButton1 {
+    margin-left: 47vw;
+    margin-top: -30.25vh;
 }
 
-.showPasswordButton {
-    margin-left: 48vw;
+.showPasswordButton2 {
+    margin-left: 47vw;
+    margin-top: 13vh;
 }
 
 .vine1 {
@@ -48,4 +49,5 @@ input {
 
 .submitButton{
     margin-left:22vw;
+    margin-top:4vh;
 }

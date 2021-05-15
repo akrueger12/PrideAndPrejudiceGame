@@ -21,11 +21,12 @@
     <div class=confirmButton onClick="makePopupInvisible()"><h2>OK</h2></div>
   </div>
      <div class="split left">
-        <h2>Username:</h2>
-        <input class=usernameInput type="text" id="usernameInput" name="usernameInput">
-        <div class="spacer"></div>
-        <h2>Password:</h2>
-        <input class=passwordInput type="password" id="passwordInput" name="passwordInput">
+        <form>
+          <label for="usernameInput">Username:</label><br>
+          <input class=usernameInput type="text" id="usernameInput" name="usernameInput" autocomplete="username">
+          <label for="passwordInput">Password:</label><br>
+          <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="current-password">
+        </form>
         <div class=showPasswordButton>
             <img src=landingPage\assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
         </div>

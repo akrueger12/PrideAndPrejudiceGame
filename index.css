@@ -1,5 +1,14 @@
 .showPasswordButton {
-    margin-left: 33vw;
+    margin-left: 30vw;
+    margin-top:-11.5vh;
+}
+
+label {
+    margin-left:1vw;
+}
+
+input {
+    margin-left:3.5vw;
 }
 
 .infoPopup {
@@ -29,8 +38,10 @@
     line-height: 2em;
     z-index:3;
 }
+
 .submitButton {
     margin-left:35%;
+    margin-top:1.5vh;
 }
 
 .registerLink {
@@ -58,7 +69,7 @@
 .left {
     left: 0;
     margin-left: 10vh;
-    padding-top: 15vh;
+    padding-top: 24vh;
     padding-left: 1vw;
     background-color: #FFF4DF
 }
