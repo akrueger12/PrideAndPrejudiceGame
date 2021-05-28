@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   
         return
       end
+      #This comment is to check if git is working
 
       if @username_found != nil
           respond_to do |format|
