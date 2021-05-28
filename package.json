@@ -2,10 +2,10 @@
   "name": "prideandprejudicegame",
   "version": "1.0.0",
   "description": "A Pride and Prejudice RPG",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "browserify js\\index.js > js\\bundle.js"
+    "build": "webpack --config ./webpack.config.js --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,17 @@
   },
   "homepage": "https://github.com/akrueger12/PrideAndPrejudiceGame#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "material-components-web": "^11.0.0",
     "phaser": "^3.52.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
   "keywords": []
 }

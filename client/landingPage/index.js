@@ -144,3 +144,7 @@ function makePopupInvisible(){
   var x = document.getElementById("infoPopup");
   x.style.display = "none";
 }
+
+function goToRegistrationPage(){
+  window.location.href = "client\register\register.html";
+}

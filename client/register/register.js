@@ -1,11 +1,12 @@
+const bcrypt = require('bcryptjs')
+
 function togglePasswordVisibility(){
-    var x = document.getElementById("passwordInput");
-  if (x.type === "password") {
+  var x = document.getElementById("passwordInput");
+  if (x.type === "password") {  
     x.type = "text";
   } else {
     x.type = "password";
   }
-  console.log("logging works");
 }
 
 function toggleConfirmPasswordVisibility(){
@@ -21,24 +22,25 @@ function validateInput(username, email, password, confirmPassword){
   return true;
 }
 
-function attemptRegister() {
-  usernameInput = document.getElementById("usernameInput").value;
-  emailInput = document.getElementById("emailInput").value;
-  passwordInput = document.getElementById("passwordInput").value;
-  confirmPasswordInput = document.getElementById("confirmPasswordInput").value;
+async function attemptRegister() {
+  let usernameInput = document.getElementById("usernameInput").value;
+  let emailInput = document.getElementById("emailInput").value;
+  const salt = await bcrypt.genSalt(10);
+  let passwordInput = await bcrypt.hash(document.getElementById("passwordInput").value, salt);
+  let confirmPasswordInput = await bcrypt.hash(document.getElementById("confirmPasswordInput").value, salt);
 
   const validated = validateInput(usernameInput, emailInput, passwordInput, confirmPasswordInput);
 
   if(validated){
-    url = "http://localhost:3000/users"
-    data = JSON.stringify({
+    let url = "http://localhost:3000/users"
+    let data = JSON.stringify({
       username: usernameInput,
       email: emailInput,
       password: passwordInput
     });
   
-    fetch(url, {
-      method: 'POST',
+    let response = await fetch(url, {
+      method: "POST",
       body: data,
       headers: {
         "Content-Type": "application/json"
@@ -46,3 +48,7 @@ function attemptRegister() {
     });
   } 
 }
+
+window.attemptRegister = attemptRegister;
+window.togglePasswordVisibility = togglePasswordVisibility;
+window.toggleConfirmPasswordVisibility = toggleConfirmPasswordVisibility;
