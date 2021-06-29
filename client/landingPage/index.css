@@ -1,6 +1,6 @@
 .showPasswordButton {
     margin-left: 30vw;
-    margin-top:-11.5vh;
+    margin-top:-10.5vh;
 }
 
 label {
@@ -20,7 +20,7 @@ input {
     z-index:2;
     display:none;
     text-align:center;
-    background-image: url("landingPage/assets/images/RectangleFrame.png");
+    background-image: url("assets/images/RectangleFrame.png");
 }
 
 .confirmButton {

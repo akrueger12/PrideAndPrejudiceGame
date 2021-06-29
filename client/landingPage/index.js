@@ -122,10 +122,6 @@
 //         elizabeth.anims.pause();
 //     }
 // }
-function infoPopup() {
-    alert("DOES THIS WORK?");
-};
-
 function togglePasswordVisibility(){
     var x = document.getElementById("passwordInput");
   if (x.type === "password") {
@@ -145,6 +141,6 @@ function makePopupInvisible(){
   x.style.display = "none";
 }
 
-function goToRegistrationPage(){
-  window.location.href = "client\register\register.html";
-}
+window.togglePasswordVisibility = togglePasswordVisibility;
+window.makePopupVisible = makePopupVisible;
+window.makePopupInvisible = makePopupInvisible;
