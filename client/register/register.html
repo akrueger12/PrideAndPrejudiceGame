@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class=vine1>
-        <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px>
+        <img src=assets/images/vines.png alt="picture of vine" height=512px width=132px>
     </div>
     <div class="registerBox">
         <h1>REGISTER</h1>
@@ -20,17 +20,16 @@
                 <label for="emailInput">Email:</label><br>
                 <input class=emailInput type="text" id="emailInput" name="emailInput" autocomplete="email">
                 <label for="passwordInput">Password:</label><br>
-                <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="new-password">
+                <div class="passwordAndIcon">
+                    <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="new-password">
+                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
+                </div>
                 <label for="confirmPasswordInput">Confirm Password:</label><br>
-                <input class=confirmPasswordInput type="password" id="confirmPasswordInput" name="confirmPasswordInput" autocomplete="new-password">
+                <div class="passwordAndIcon">
+                    <input class=confirmPasswordInput type="password" id="confirmPasswordInput" name="confirmPasswordInput" autocomplete="new-password">
+                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" height=40px width=40px onClick="toggleConfirmPasswordVisibility()">
+                </div>
             </form>
-
-            <div class=showPasswordButton1>
-                <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
-            </div>
-            <div class=showPasswordButton2>
-                <img src=assets\images\showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="toggleConfirmPasswordVisibility()">
-            </div>
         <button class="submitButton" onClick="attemptRegister()">SIGN UP</button>
         <div class="spacer"></div>
         <h3>Already have an account? <a href="../index.html">Login</a> </h3>

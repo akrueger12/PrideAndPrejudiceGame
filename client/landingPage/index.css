@@ -1,6 +1,7 @@
 .showPasswordButton {
-    margin-left: 30vw;
-    margin-top:-10.5vh;
+    position:absolute;
+    right:6vw;
+    top:2.5vh;
 }
 
 label {
@@ -9,6 +10,18 @@ label {
 
 input {
     margin-left:3.5vw;
+}
+
+.confirm h2 {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    position:absolute;
+    top:10%;
+    left:41%;
+    margin:0;
 }
 
 .infoPopup {
@@ -21,10 +34,6 @@ input {
     display:none;
     text-align:center;
     background-image: url("assets/images/RectangleFrame.png");
-}
-
-.confirmButton {
-    margin-top:-10vh;
 }
 
 .infoPopup h1 {
@@ -79,38 +88,49 @@ input {
     width:50vw;
     padding-top:5vh;
     padding-right:1vw;
-    text-align: center;
 }
 
-.elizabethImage {
-    right: 0;
-    margin-top: -30vh;
-    margin-left: 16vw;
+.headings {
+    text-align:center;  
 }
 
-.heart1 {
-    height:100px;
-    width:100px;
-    margin-left:7vw;
-    margin-top:5vh;
+.hearts {
+    display:flex;
+    margin-left:8vw;
+    margin-top:5.75vh;
+    flex-direction: column;
 }
 
 .heart2 {
-    height:100px;
-    width:100px;
-    margin-left:15vw;
-    margin-top:-5vh;
+    margin-left:8vw;
+    margin-top:1vw;
 }
 
 .heart3 {
-    height:100px;
-    width:100px;
-    margin-left:9vw;
-    margin-top:1vh;
+    margin-left: 2.25vw;
+    margin-top:6vh;
+}
+
+.decorations {
+    display:flex;
+    flex-direction:row;
+}
+
+.elizabethImage {
+    margin-left: 6vw;
+    margin-top: 12.5vh;
 }
 
 .infoButton {
-    margin-left:45vw;
-    padding-bottom:1vh;
-    margin-top:-15vh;
+    position:absolute;
+    right:1.5vw;
+    bottom:3.5vw;
+}
+
+.passwordInputAndIcon {
+    position:relative;
+}
+
+.confirm {
+    position: relative;
 }

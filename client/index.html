@@ -17,19 +17,21 @@
     </h2>
     <div class="spacer"></div>
     <div class="spacer"></div>
-    <img src=landingPage/assets/images/BrownButton.png alt="exit button" height=55px width=110px onClick="makePopupInvisible()">
-    <div class=confirmButton onClick="makePopupInvisible()"><h2>OK</h2></div>
+    <div class="confirm">
+      <img src=landingPage/assets/images/BrownButton.png alt="exit button" height=55px width=110px onClick="makePopupInvisible()">
+      <h2 onClick="makePopupInvisible()">OK</h2>
+    </div>  
   </div>
      <div class="split left">
         <form>
           <label for="usernameInput">Username:</label><br>
           <input class=usernameInput type="text" id="usernameInput" name="usernameInput" autocomplete="username">
           <label for="passwordInput">Password:</label><br>
-          <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="current-password">
+          <div class="passwordInputAndIcon">
+            <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="current-password">
+            <img src=landingPage/assets/images/showPassword.png class="showPasswordButton" alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
+          </div>
         </form>
-        <div class=showPasswordButton>
-            <img src=landingPage/assets/images/showPassword.png alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
-        </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
         <button class="submitButton">LOGIN</button>
@@ -39,24 +41,18 @@
         </div>
       </div>
       <div class="split right">
+        <div class="headings">
           <h1>PRIDE AND PREJUDICE</h1>
-          <h2>Literature made simple</h2>
-          <div class=heart1>
-            <img src=landingPage/assets/images/heart.png alt="Pixel art heart" height=100 width=100>
+          <h2>Literature made simple</h2> 
+        </div>
+        <div class="decorations">
+          <div class="hearts">
+            <img src=landingPage/assets/images/heart.png class="heart1" alt="Pixel art heart" height=55 width=55>
+            <img src=landingPage/assets/images/heart.png class="heart2" alt="Pixel art heart" height=55 width=55>
+            <img src=landingPage/assets/images/heart.png class="heart3" alt="Pixel art heart" height=55 width=55>
           </div>
-          <div class=heart2>
-            <img src=landingPage/assets/images/heart.png alt="Pixel art heart" height=100 width=100>
-          </div>
-          <div class=heart3>
-            <img src=landingPage/assets/images/heart.png alt="Pixel art heart" height=100 width=100>
-          </div>
-          <div class=elizabethImage>
-            <img src=landingPage/assets/images/ElizabethStill.png alt="Elizabeth Bennet in pixel art" height=550 width=550>
-          </div>
-          <div class=infoButton>
-            <img src=landingPage/assets/images/infoButton.png alt="Pixel art question mark informational button" height=100 width=100 onClick="makePopupVisible()">
-          </div>
-      </div>
-    
+            <img src=landingPage/assets/images/ElizabethStill.png class="elizabethImage" alt="Elizabeth Bennet in pixel art" height=467.5 width=242.165>  
+        </div>
+       <img src=landingPage/assets/images/infoButton.png class="infoButton" alt="Pixel art question mark informational button" height=40 width=40 onClick="makePopupVisible()">
 </body>
 </html>

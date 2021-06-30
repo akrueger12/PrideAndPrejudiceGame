@@ -27,28 +27,29 @@ form {
     background: transparent; 
 }
 
-.showPasswordButton1 {
-    margin-left: 47vw;
-    margin-top: -28.25vh;
+.passwordAndIcon {
+    position:relative;
 }
 
-.showPasswordButton2 {
-    margin-left: 47vw;
-    margin-top: 12vh;
+.showPasswordButton {
+    position:absolute;
+    top:2.5vh;
+    right:10vw;
 }
 
 .vine1 {
-    margin-top:-5vh;
-    margin-left:10vw;
+    position:absolute;
+    left:10vw;
 }
 
 .vine2 {
+    position:absolute;
     transform: rotate(180deg);
-    margin-right: 10vw;
-    margin-top: -27vh;
+    right:10vw;
+    bottom:0;
 }
 
 .submitButton{
     margin-left:22vw;
-    margin-top:4vh;
+    margin-top:1vh;
 }
