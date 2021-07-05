@@ -2,6 +2,7 @@
     position:absolute;
     right:6vw;
     top:2.5vh;
+    cursor:pointer;
 }
 
 label {
@@ -25,27 +26,53 @@ input {
 }
 
 .infoPopup {
-    width:1092px;
-    height:648px;
-    margin-left:18vw;
-    margin-top:5vh;
+    max-width:70%;
+    margin-top:3.5%;
+    margin-left:15%;
+    margin-right:15%;
     position: absolute; 
     z-index:2;
     display:none;
     text-align:center;
-    background-image: url("assets/images/RectangleFrame.png");
 }
 
-.infoPopup h1 {
-    margin-top: 12vh;
+.infoPopupImg {
+    width:100%;
+}
+
+.infoPopupHeading {
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
     font-size:2vw;
+    top:16%;
+    left:11%;
 }
 
-.infoPopup h2 {
-    margin-left:5vw;
-    margin-right:5vw;
-    line-height: 2em;
+.infoPopupText {   
+    position:absolute;
+    font-family: 'Press Start 2P', cursive; 
+    line-height:1.5em;
+    top:26%;
+    left:11%;
+    right:11%;
+    font-size:1.5vw;
     z-index:3;
+}
+
+.confirmImg {
+    position:absolute;
+    bottom:15%;
+    height:10%;
+    width:16%;
+    left:42%;
+}
+
+.confirmText {
+    font-family: 'Press Start 2P', cursive; 
+    font-size:1.5vw;
+    position:absolute;
+    bottom:18%;
+    left:48%;
 }
 
 .submitButton {
@@ -125,12 +152,9 @@ input {
     position:absolute;
     right:1.5vw;
     bottom:3.5vw;
+    cursor:pointer;
 }
 
 .passwordInputAndIcon {
     position:relative;
-}
-
-.confirm {
-    position: relative;
 }
