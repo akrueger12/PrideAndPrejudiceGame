@@ -22,17 +22,16 @@
                 <label for="passwordInput">Password:</label><br>
                 <div class="passwordAndIcon">
                     <input class=passwordInput type="password" id="passwordInput" name="passwordInput" autocomplete="new-password">
-                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" height=40px width=40px onClick="togglePasswordVisibility()">
+                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" onClick="togglePasswordVisibility()">
                 </div>
                 <label for="confirmPasswordInput">Confirm Password:</label><br>
                 <div class="passwordAndIcon">
                     <input class=confirmPasswordInput type="password" id="confirmPasswordInput" name="confirmPasswordInput" autocomplete="new-password">
-                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" height=40px width=40px onClick="toggleConfirmPasswordVisibility()">
+                    <img src=assets\images\showPassword.png class="showPasswordButton" alt="show password magnifying glass" onClick="toggleConfirmPasswordVisibility()">
                 </div>
             </form>
         <button class="submitButton" onClick="attemptRegister()">SIGN UP</button>
-        <div class="spacer"></div>
-        <h3>Already have an account? <a href="../index.html">Login</a> </h3>
+        <h3 class="haveAccountLink">Already have an account? <a href="../index.html">Login</a> </h3>
     </div>
     <div class=vine2>
         <img src=assets\images\vines.png alt="picture of vine" height=512px width=132px>

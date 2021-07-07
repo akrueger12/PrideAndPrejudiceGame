@@ -26,26 +26,31 @@ input {
 }
 
 .infoPopup {
-    max-width:70%;
+    max-width:100%;
+    max-height:100%;
     margin-top:3.5%;
     margin-left:15%;
     margin-right:15%;
     position: absolute; 
+    justify-content: center;
+    align-items: center;
     z-index:2;
     display:none;
     text-align:center;
 }
 
 .infoPopupImg {
+    margin:auto;
     width:100%;
+    max-height: 100vh;
 }
+
 
 .infoPopupHeading {
     position: absolute;
     font-family: 'Press Start 2P', cursive;
     font-size:2vw;
     top:16%;
-    left:11%;
 }
 
 .infoPopupText {   
@@ -53,15 +58,15 @@ input {
     font-family: 'Press Start 2P', cursive; 
     line-height:1.5em;
     top:26%;
+    font-size:1.5vw;
     left:11%;
     right:11%;
-    font-size:1.5vw;
     z-index:3;
 }
 
 .confirmImg {
     position:absolute;
-    bottom:15%;
+    top:75%;
     height:10%;
     width:16%;
     left:42%;
@@ -69,18 +74,20 @@ input {
 
 .confirmText {
     font-family: 'Press Start 2P', cursive; 
-    font-size:1.5vw;
+    font-size:2vw;
     position:absolute;
-    bottom:18%;
+    top:78%;
     left:48%;
 }
 
 .submitButton {
     margin-left:35%;
     margin-top:1.5vh;
+    font-size:1.5vw;
 }
 
 .registerLink {
+    padding-top:1.5vh;
     font-family: 'Press Start 2P', cursive;
     margin-left:3vw;
 }
@@ -157,4 +164,49 @@ input {
 
 .passwordInputAndIcon {
     position:relative;
+}
+
+@media only screen and (max-width: 1100px) {
+    .infoPopupHeading {
+        font-size:2vw;
+    }
+    
+    .infoPopupText {   
+        font-size:1vw;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .infoPopupHeading {
+        font-size:1.5vw;
+    }
+    
+    .infoPopupText {   
+        font-size:1vw;
+    }
+
+    .confirmText {
+        font-size:1.5vw;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .showPasswordButton {
+        width:30px;
+        height:30px;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .showPasswordButton {
+        width:20px;
+        height:20px;
+    }
+}
+
+@media only screen and (max-height: 200px) {
+    .showPasswordButton {
+        width:10px;
+        height:10px;
+    }
 }

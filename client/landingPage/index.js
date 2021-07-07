@@ -133,7 +133,7 @@ function togglePasswordVisibility(){
 
 function makePopupVisible(){
   var x = document.getElementById("infoPopup");
-  x.style.display = "block";
+  x.style.display = "flex";
 }
 
 function makePopupInvisible(){
