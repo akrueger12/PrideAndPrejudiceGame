@@ -5,6 +5,68 @@
     padding-left:1vw;
 }
 
-.chap_heading {
+.chapHeading {
+    font-size:3vw;
+    padding-top:3vh;
     text-align: center;
+}
+
+.levelsBlock {
+    padding-top: 3vh;
+    padding-left:10vw;
+    padding-right:10vw;
+}
+
+.chapContent {
+    width:80vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    height:20vh;
+    border-radius:10px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap:1vw;
+    background-color:#FFF4DF;
+}
+
+.chapTitle {
+    flex-grow:1;
+}
+
+.chapButton {
+    font-family: 'Press Start 2P', cursive;
+    height:8vh;
+    padding-left:1vw;
+    padding-right:1vw;
+    font-size: large;
+    background-color: #EBDFC7;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    box-shadow: 1px 2px;
+    cursor:pointer;
+}
+
+.quizIcon {
+    height:8vh;
+    width:8vh;
+}
+
+.smallButton {
+    font-family: 'Press Start 2P', cursive;
+    height:8vh;
+    padding-left:1vw;
+    padding-right:1vw;
+    font-size: large;
+    background-color: #EBDFC7;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    box-shadow: 1px 2px;
+    cursor:pointer;
+}
+
+.smallIcon {
+    padding-top:2vh;
 }
