@@ -21,7 +21,7 @@ function preload ()
 {
     this.load.image('background-tileset', 'assets/Tilesets/TutorialMapImage.png');
     this.load.spritesheet('elizabeth', 'assets/Sprites/Elizabeth.png', { frameWidth: 64, frameHeight: 128 });
-    this.load.tilemapTiledJSON('newTutorial', 'assets/TileMaps/NewTutorial.json');
+    this.load.tilemapTiledJSON('newTutorial', 'assets/Tilemaps/NewTutorial.json');
 }
 
 var layer;
