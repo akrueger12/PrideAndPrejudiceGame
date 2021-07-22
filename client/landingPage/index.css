@@ -33,7 +33,6 @@ input {
     max-height: 100vh;
 }
 
-
 .infoPopupHeading {
     position: absolute;
     font-family: 'Press Start 2P', cursive;
@@ -157,10 +156,6 @@ input {
 
 .passwordInputAndIcon {
     position:relative;
-}
-
-.noStoring {
-
 }
 
 @media only screen and (max-width: 1100px) {

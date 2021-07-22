@@ -19,6 +19,7 @@
 
 .chapContent {
     width:80vw;
+    position:absolute;
     padding-left:1vw;
     padding-right:1vw;
     height:20vh;
@@ -28,6 +29,11 @@
     align-items: center;
     gap:1vw;
     background-color:#FFF4DF;
+}
+
+.chapImg {
+    border-radius:10px;
+    height:15vh;
 }
 
 .chapTitle {
